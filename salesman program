@@ -1,0 +1,18 @@
+#Car salesman program
+#30/08/19
+
+carPrice = int(raw_input("What is the base price of your car\n"))
+
+tax = 0.95
+licence = 0.98
+dealer_prep = 200
+dest_charge = 50
+
+carPrice *= tax
+carPrice *= licence
+carPrice -= dealer_prep
+carPrice -= dest_charge
+
+print carPrice
+
+raw_input("\n\n Pleaase press enter key to exit")

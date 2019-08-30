@@ -1,0 +1,13 @@
+#challenge 2.2
+#Restaurant bill total with 2 tips
+# 29/08/19
+
+total = float(raw_input("What is your bill total? "))
+
+print total
+
+tip1 = "15%"
+tip2 = "20%"
+print "Tip the following ", tip1, "or ", tip2
+
+raw_input("\n\nPress the enter key to exit")
